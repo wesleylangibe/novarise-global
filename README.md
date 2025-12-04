@@ -133,3 +133,85 @@
   </footer>
 </body>
 </html>
+
+
+/* NovaRise Global Stylesheet */
+
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0d1b2a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Main Section */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Titles */
+h1, h2, h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #0d1b2a;
+}
+
+/* Links */
+a {
+    color: #1f78c1;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: #1f78c1;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+}
+button:hover {
+    background-color: #155a8a;
+}
+
+/* Footer */
+footer {
+    background-color: #0d1b2a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        padding: 20px 15px;
+    }
+    h1, h2, h3 {
+        font-size: 1.5rem;
+    }
+}
